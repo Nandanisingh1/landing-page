@@ -1,0 +1,140 @@
+		*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		font-family: poppins;
+	}
+	.menu{
+		width: 1170px;
+		margin: auto;
+	}
+	.home-container{
+		background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(img/pic20.jpg);
+		height: 100vh;
+		-webkit-background-size:cover;
+		background-size: cover;
+		background-position: center center;
+		position: relative;
+	}
+.nav{
+		float: right;
+		font-style: none;
+		margin-top: 30px;
+	}
+	.nav li{
+		display: inline-block;
+	}
+	.nav li a{
+		color:white;
+		text-decoration: none;
+		padding: 5px 20px;font-size: 16px;
+		text-transform: uppercase;
+	}
+	.nav li a:hover{
+		background:lightseagreen;
+		color: #000; 
+		border-radius: 5px;
+	}
+	.logo{
+		float: left;
+	}
+	.logo h1{
+		font-size: 40px;
+		color: white;
+		text-transform: uppercase;
+		padding-top: 10px; 
+	}
+	.logo h1:hover{
+		color:deepskyblue;
+	}
+			.banner-text{
+				position: absolute;
+				width: 600px;
+				height: 300px;
+				margin: 18% 30%;
+				text-align: center;
+			}
+		.banner-text h1{
+			color:#fff;
+			font-size: 50px;
+			text-transform: uppercase;
+		}
+		.banner-text h1 span{
+			color:#000fff;
+		}
+		.banner-text p{
+			color: #fff;
+			font-size: 28px;
+			line-height: 1.9;
+		}
+		.banner-text a{
+			border: 1px solid #fff;
+			font-size: 15px;
+			color: black;
+			font-weight: 700;
+			margin-top: 20px;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: white;
+			border-radius: 10px;
+		}
+		.banner-text a:hover{
+			background:lightseagreen;
+			border: none;
+			border-radius: 10px;
+		}
+.about-container{
+	background-color: black;	
+}
+.text-container{
+width: 90%;
+text-align: center;
+}
+.model{
+	width:80%;
+	height:220px;
+	background:gray;
+	border-radius:20px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7%  auto 20px auto;
+	position: relative;
+	justify-content:space-evenly;
+	align-items: center;
+    margin-top: 1px;
+}
+.model img{
+	width:300px;
+	padding-top:10px;
+	margin-left:10px;
+	border-radius:20px;
+}
+.model p{
+	display: inline-flex;
+}
+.model:hover{
+background-color:deeppink;
+}
+.footer{
+	height: 30vh;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.add{
+display:inline-block;
+margin: 10px 100px;
+
+}
+.socail img{
+	width: 30px;
+	margin:60px 10px;
+}
+.socail img:hover{
+	background-color: deeppink;
+	border-radius: 10px;
+}
